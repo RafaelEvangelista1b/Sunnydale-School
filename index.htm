@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Escola Sunnydale: Bem-vindo à Nossa Comunidade!</title>
+    
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFFFFF;
+            color: #1A1A1A;
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: #CC0000;
+            color: #FFFFFF;
+            padding: 40px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        .container h2 {
+            color: #FFFFFF;
+            font-size: 22px;
+            font-weight: 600;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #FFFFFF;
+            padding-bottom: 5px;
+        }
+        
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: #CC0000;
+            color: #FFFFFF;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        #upcoming-events, .section-contact {
+            background-color: transparent;
+            padding: 0;
+            border: none;
+        }
+        
+        .outdoor {
+            background-color: #A00000;
+            padding: 8px 10px;
+            border-left: 3px solid #FFFFFF;
+            border-radius: 4px;
+            margin-bottom: 8px;
+        }
+
+        .event-date {
+            font-weight: bold;
+            color: #FFFFFF;
+        }
+
+        .container a {
+            color: #FFFFFF;
+            text-decoration: underline;
+        }
+        
+        hr {
+            border: 0;
+            height: 1px;
+            background-color: #FFDCDC;
+            margin: 30px 0;
+        }
+
+        footer {
+            background-color: #1A1A1A;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Escola Sunnydale</h1>
+    </header>
+
+    <main class="container">
+        
+        <article>
+            <h2>Declaração de Missão</h2>
+            <p>Nossa missão é inspirar uma paixão duradoura pelo aprendizado, capacitando cada aluno a prosperar e se tornar um cidadão global responsável.</p>
+        </article>
+
+        <hr>
+
+        <section>
+            <h2 id="upcoming-events-title">Próximos Eventos</h2>
+            
+            <div id="upcoming-events">
+                <ul style="list-style-type: none; padding: 0;">
+                    
+                    <li data-event-type="indoor" title="Tipo de Evento: Interno">
+                        Feira de Ciências - <span class="event-date">10 de Junho</span>
+                    </li>
+                    
+                    <li class="outdoor" data-event-type="outdoor" title="Tipo de Evento: Ao Ar Livre">
+                        Exposição de Arte Comunitária - <span class="event-date">15 de Junho</span>
+                    </li>
+                    
+                    <li class="outdoor" data-event-type="outdoor" title="Tipo de Evento: Ao Ar Livre">
+                        Dia de Esportes - <span class="event-date">20 de Junho</span>
+                    </li>
+                    
+                </ul>
+            </div>
+        </section>
+        
+        <hr>
+
+        <section>
+            <h2>Fale Conosco</h2>
+            
+            <div class="section-contact">
+                <p>
+                    E-mail: <a href="mailto:contato@sunnydale.edu" title="Clique para copiar o e-mail">contato@sunnydale.edu</a>
+                </p>
+                <p>
+                    Telefone: <span title="Clique para copiar o número">(99) 9999-9999</span>
+                </p>
+                <p>
+                    Endereço: Rua Principal, 123 - Sunnydale
+                </p>
+            </div>
+            
+        </section>
+        
+    </main>
+    
+    <footer>
+        &copy; 2025 Escola Sunnydale. Todos os direitos reservados.
+    </footer>
+</body>
+</html>
